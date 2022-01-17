@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<title>Todo App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h3 class="title">Todo App</h3>
+		<p>
+			<label for="new-task">Add Item</label><input id="new-task" type="text"><button onclick="addTask()">Add</button>
+		</p>
+
+		<h3>Todo</h3>
+		<ul id="incomplete-tasks">
+			<li><input type="checkbox"><label>Task 1</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+			
+
+		</ul>
+
+		<h3>Completed</h3>
+		<ul id="completed-tasks">
+			<li><input type="checkbox" checked><label>Completed Task</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+		</ul>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
